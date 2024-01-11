@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Hello</title>
-
+    <meta name="description" content="Safi Eddine Bouhentala - 8 bit style">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Hello </h1>
+    <div id="skybox" class="skybox">
+        <div class="hero">
+            <h4 class="txt">Safi.</h4>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/safi-eddine-bouhentala/" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/apotox" target="_blank">Github</a>
+                </li>
+                <li class="featured">
+                    <a href="https://endprompt.online" target="_blank">Endprompt (AI)</a>
+                    <span>
+                        AWS serverless, Terraform, Typescript , react , nodejs , Dynamodb , git , ci/cd
+                    </span>
+                </li>
+                <li class="featured">
+                    <a href="https://dev.to/saphidev/build-your-own-faas-provider-2gca" target="_blank">Dev.to</a>
+                    <span>
+                        AWS serverless, Typescript , CLI , nodejs , Dynamodb , git , ci/cd
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div id="player" class="idle"></div>
+        <div class="ground"></div>
     </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
